@@ -1,7 +1,7 @@
 # Women Safety Night Patrolling Robot
 
 ## Overview
-The **Women Safety Night Patrolling Robot** is an autonomous surveillance system designed to patrol an area at night, detect obstacles, and provide real-time monitoring through a **360-degree Full HD Wi-Fi camera with night vision**. This project enhances safety by offering continuous surveillance and automated obstacle avoidance, making it ideal for security applications.
+The **Women Safety Night Patrolling Robot** is an autonomous surveillance system designed to patrol an area whole day, detect obstacles, and provide real-time monitoring through a **360-degree Full HD Wi-Fi camera with night vision**. This project enhances safety by offering continuous surveillance and automated obstacle avoidance, making it ideal for security applications.
 
 ## Features
 - 🚧 **Obstacle Avoidance**: Uses three **ultrasonic sensors** to detect obstacles and navigate safely.
@@ -11,7 +11,7 @@ The **Women Safety Night Patrolling Robot** is an autonomous surveillance system
 - ⚙️ **Motor Driver Control**: Uses an **L298N motor driver** to control wheel movement for smooth patrolling.
 
 ## Components Used
-- **2 x Arduino Uno** (One for sensor control, another for motor and camera integration)
+- **1 x Arduino Uno** (For sensor control and for motor driver)
 - **1 x Full HD Wi-Fi Camera with Night Vision** (For 360-degree surveillance)
 - **3 x Ultrasonic Sensors (HC-SR04)** (For obstacle detection)
 - **1 x L298N Motor Driver Module** (To control motors)
@@ -26,7 +26,7 @@ The **Women Safety Night Patrolling Robot** is an autonomous surveillance system
 
 ### 2️⃣ Movement & Navigation
 - The **motor driver** controls the **DC motors** to move the robot forward, turn, or stop.
-- The second **Arduino Uno** processes sensor data and makes navigation decisions.
+- The  **Arduino Uno** processes sensor data and makes navigation decisions.
 
 ### 3️⃣ Surveillance
 - The **Full HD Wi-Fi camera** transmits live footage to a remote device.
@@ -39,7 +39,7 @@ The **Women Safety Night Patrolling Robot** is an autonomous surveillance system
 3. Connect the **Arduino boards, motor driver, and motors**.
 
 ### 🔌 Upload the Code
-1. Load the Arduino **obstacle avoidance and motor control** scripts onto both Arduino boards.
+1. Load the Arduino **obstacle avoidance and motor control** scripts onto Arduino board.
 2. Ensure proper pin configuration in the code.
 
 ### ⚡ Power On & Operate
@@ -49,9 +49,7 @@ The **Women Safety Night Patrolling Robot** is an autonomous surveillance system
 
 ## Future Enhancements
 - 🔍 **AI-based facial recognition** for identifying threats.
-- 📡 **GPS tracking** for real-time location updates.
-- 📱 **Remote control via mobile app** for manual intervention.
-- ☀️ **Solar-powered battery system** for longer operational hours.
+- 📡 **GPS tracking** for real-time location updates using gsm module.
 
 ## Contributing
 Feel free to contribute by improving the design, adding new features, or optimizing the code! Fork this repository, create a new branch, and submit a pull request. 
